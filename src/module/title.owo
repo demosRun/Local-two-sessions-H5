@@ -1,0 +1,38 @@
+<template lang="pug">
+<div class="plate-title-bar">
+  <h2>
+    <span style="color: #bc1b21;">视频</span>
+    <span style="color: #393939;">报道</span>
+  </h2>
+  <p>2020地方两会<strong>特别报道</strong></p>
+</div>
+</template>
+
+
+<style lang="less">
+.plate-title-bar {
+  height: 17vw;
+  background-repeat: no-repeat;
+  background-image: url('@|title.png|');
+  background-position: center right;
+  background-size: 100% auto;
+  width: 90vw;
+  margin: 0 auto;
+  position: relative;
+}
+h2 {
+  height: 17vw;
+  line-height: 17vw;
+}
+p {
+  font-size: 12px;
+  position: absolute;
+  bottom: 3vw;
+  right: 0;
+  color: #888888;
+  font-style: italic;
+}
+strong {
+  color: #494949;
+}
+</style>

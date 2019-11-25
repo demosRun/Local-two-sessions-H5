@@ -1,0 +1,97 @@
+<template>
+<!-- 两会日历 -->
+<div class="calendar-box">
+  <ul class="data-list clear">
+    <li>
+      <div class="day">2/3</div>
+      <div class="text">解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/4</div>
+      <div class="text">2解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/5</div>
+      <div class="text">3解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/6</div>
+      <div class="text">6解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/7</div>
+      <div class="text">7解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/8</div>
+      <div class="text">8解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/9</div>
+      <div class="text">9解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/10</div>
+      <div class="text">10解读2016政府工作报告释放哪些“十三五”发展信号解读2016政展信号解读2释放哪些三五展信号解读2释放哪些三五展信号解读2释放哪些三五府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号解读2释放哪些三五”</div>
+    </li>
+    <li>
+      <div class="day">2/11</div>
+      <div class="text"></div>
+    </li>
+    <li>
+      <div class="day">2/12</div>
+      <div class="text"></div>
+    </li>
+  </ul>
+  <!-- 文字内容 -->
+  <p class="text-box"></p>
+</div>
+</template>
+
+
+<style lang="less">
+.calendar-box {
+  width: 90vw;
+  margin: 0 auto;
+  position: relative;
+  background-size: 100% auto;
+  height: 58vw;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url('@|calendar.png|');
+  .data-list {
+    height: 8vw;
+    position: absolute;
+    width: 94%;
+    top: 11vw;
+    margin: 0 3%;
+  }
+}
+li {
+  float: left;
+  width: 8vw;
+  height: 8vw;
+  line-height: 8vw;
+  text-align: center;
+  color: #ce2a0f;
+  .text {
+    display: none;
+  }
+}
+.text-box {
+  position: absolute;
+  top: 21vw;
+  margin: 2vw;
+  height: 31vw;
+}
+.active {
+  background-color: #cf2b0e;
+  border-radius: 4vw;
+  color: white;
+}
+.no-text {
+  color: #dba2a4;
+  user-select: none;
+  pointer-events: none;
+}
+</style>

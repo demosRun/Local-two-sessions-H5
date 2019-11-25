@@ -7,6 +7,45 @@
     a(href="#") 黑龙江省第二十届人民代表大会1月31日第五次选举落幕
   .main-box.clear
     plug(_name="ProgressBarSwiper" _src="https://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page")
+    ul.right
+      li
+        a(href="#")
+          h2 解读2020政府工作报告释放哪些信号
+          p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+      li
+        a(href="#")
+          h2 解读2020政府工作报告释放哪些信号
+          p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+      li
+        a(href="#")
+          h2 解读2020政府工作报告释放哪些信号
+          p 解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读201
+  //- 议程
+  plug(_name="agenda" _src="./src/module/agenda.owo")
+  plug(_name="calendar" _src="./src/module/calendar.owo")
+  //- 滚动新闻
+  .gundongxinwen
+    a(name="gundongxinwen")
+    plug(_name="rollingNews" _src="./src/module/rollingNews.owo")
+  //- 视频报道
+  .shipinbaodao
+    a(name="shipinbaodao")
+    plug(_name="title" _src="./src/module/title.owo")
+    plug(_name="videoBox" _src="./src/module/videoBox.owo")
+  //- 解读
+  .jiedu
+    a(name="jiedu")
+    plug(_name="title" _src="./src/module/title.owo")
+    plug(_name="unscramble" _src="./src/module/unscramble.owo")
+  //- 报道焦点
+  .jiaodian
+    a(name="baodaojiaodian")
+    plug(_name="title" _src="./src/module/title.owo")
+    plug(_name="focusBox" _src="./src/module/focusBox.owo")
+  .renwubaodao
+    a(name="renwubaodao")
+    plug(_name="title" _src="./src/module/title.owo")
+    plug(_name="peopleBox" _src="./src/module/peopleBox.owo")
 </template>
 
 <script>
@@ -33,6 +72,28 @@
   text-align: center;
   a {
     color: #bc1b21;
+  }
+}
+.main-box {
+  .right {
+    width: 90vw;
+    margin: 0 auto;
+    li {
+      border-bottom: 2px dotted #a4a4a4;
+      padding: 15px 0;
+      overflow: hidden;
+      color: #222;
+      h2 {
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: 3px;
+        font-family: "Microsoft YaHei";
+      }
+      p {
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
   }
 }
 </style>

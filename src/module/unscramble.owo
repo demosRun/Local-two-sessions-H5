@@ -1,0 +1,42 @@
+<template>
+<div class="unscramble clear">
+  <ul class="news-list right fl">
+    <li>
+      <a href="#">解读2020政府工作报告释放哪些“十三五读2016政展信号解解读2020政府工作报告释放哪些“十三五读2016政展信号解</a>
+    </li>
+    <li>
+      <a href="#">读2释放哪些解读2020政府工作报告释放哪些些三些三三</a>
+    </li>
+    <li>
+      <a href="#">释放哪些三五展信号解读2释放哪些三五府</a>
+    </li>
+    <li>
+      <a href="#">工作报些三五展信些解读2020政府工作报告释放哪些三五展信</a>
+    </li>
+    <li>
+      <a href="#">些三五展信展展信号解展信号解信号解读2释放哪些三五展信号</a>
+    </li>
+    <li>
+      <a href="#">三五府工作报展信号解展信号解信号解读2释放哪些三</a>
+    </li>
+  </ul>
+</div>
+</template>
+
+
+<style lang="less">
+li {
+  background-image: url('@|list-icon.png|');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 30px;
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+  font-size: 14px;
+}
+.unscramble {
+  width: 90vw;
+  margin: 0 auto;
+}
+</style>

@@ -1,0 +1,79 @@
+<template>
+<div class="people-box">
+  <ul>
+    <li>
+      <a href="#">
+        <div class="li-box clear">
+          <div class="left">
+            <img src="@|people.jpg|" width="486" height="567">
+          </div>
+          <div class="right">
+            <h2>达美乐</h2>
+            <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+            <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="li-box clear">
+          <div class="left">
+            <img src="@|people.jpg|" width="486" height="567">
+          </div>
+          <div class="right">
+            <h2>达美乐</h2>
+            <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+            <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="li-box clear">
+          <div class="left">
+            <img src="@|people.jpg|" width="486" height="567">
+          </div>
+          <div class="right">
+            <h2>达美乐</h2>
+            <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+            <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+          </div>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <div class="li-box clear">
+          <div class="left">
+            <img src="@|people.jpg|" width="486" height="567">
+          </div>
+          <div class="right">
+            <h2>达美乐</h2>
+            <h3>全国第十三届人大代表<br>甘肃省省委书记</h3>
+            <p>解读2016政府工作报告释放哪些“十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信十三五”发展信号解读2016政府工作报告释放哪些“十三五”发展信号 .解读2016政府工作报告释放哪些“十三五”</p>
+          </div>
+        </div>
+      </a>
+    </li>
+  </ul>
+  <img class="people-left-button left-button swiper-button owo-hover-grow" src="./static/resource/people-left-button.png">
+  <img class="people-right-button right-button swiper-button owo-hover-grow" src="./static/resource/people-right-button.png">
+</div>
+</template>
+
+
+<style lang="less">
+.people-box {
+  width: 90vw;
+  height: 49vw;
+  overflow: hidden;
+  margin: 0 auto;
+}
+img, a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+</style>

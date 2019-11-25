@@ -1,9 +1,8 @@
 /* 这个文件里写的是全局样式,在各个页面都生效 */
-body, html, .ox {
+body, html, .owo {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow: hidden;
   user-select: text;
   font: normal 12px/180% "SimSun";
   -webkit-overflow-scrolling: touch;
@@ -27,10 +26,6 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
-a:hover {
-  color: white;
-  text-decoration: underline;
-}
 
 h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
   margin: 0;
@@ -44,4 +39,12 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   display: block;
   visibility: hidden;
   clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
 }
