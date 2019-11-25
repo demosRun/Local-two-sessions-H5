@@ -1,7 +1,12 @@
-<template>
-  <div class="home">
-    内容
-  </div>
+<template lang="pug">
+.home
+  img.main-image(src="@|bg.jpg|")
+  plug(_name="titleBar" _src="./src/module/titleBar.owo")
+  //- 主标题
+  .main-title
+    a(href="#") 黑龙江省第二十届人民代表大会1月31日第五次选举落幕
+  .main-box.clear
+    plug(_name="ProgressBarSwiper" _src="https://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page")
 </template>
 
 <script>
@@ -14,5 +19,20 @@
 
 
 <style lang="less">
-
+.main-image {
+  width: 100%;
+  display: block;
+}
+.main-title {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #bc1b21;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+  a {
+    color: #bc1b21;
+  }
+}
 </style>
