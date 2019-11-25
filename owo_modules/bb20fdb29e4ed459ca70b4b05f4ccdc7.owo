@@ -18,40 +18,6 @@
         {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
         {src:"http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg", text: "全省“法治进校园”巡讲团首站——晋中"},
       ]
-    },
-    created: function () {
-      const slideListLength = owo.query('.swiper-wrapper .swiper-slide').length
-      owo.query('.index')[0].innerText = '1/' + slideListLength
-      // 轮播图展示区域swiper
-      setTimeout(() => {
-        this.data.swiper = new Swiper(owo.query('.swiper-container')[0], {
-          autoplay: {
-            delay: 3000,
-          },
-          pagination: {
-            el: owo.query('.pagination')[0]
-          },
-          loop: true,
-          onSlideChangeStart: function (swiper) {
-            let index = null
-            if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex
-            else index = 1
-            owo.query('.index')[0].innerText = index + '/' + slideListLength
-          }
-        })
-        setTimeout(() => {
-          const switchList = owo.query('.pagination .swiper-pagination-bullet')
-          for (let ind = 0; ind < switchList.length; ind++) {
-            switchList[ind].style.width = (100 / slideListLength) + '%'
-          }
-        }, 100)
-      }, 0)
-    },
-    previou: function () {
-      this.data.swiper.swipePrev()
-    },
-    next: function () {
-      this.data.swiper.swipeNext()
     }
   }
 </script>

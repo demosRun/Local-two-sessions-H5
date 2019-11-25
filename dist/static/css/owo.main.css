@@ -479,6 +479,7 @@ li {
   height: 100%;
   display: block;
 }
+
 .main-image {
   width: 100%;
   display: block;
@@ -520,4 +521,25 @@ li {
 .main-box .right li p {
   font-size: 14px;
   line-height: 23px;
+}
+
+.button-bar {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.button-bar .fl {
+  width: 50%;
+  text-align: center;
+}
+
+.button-bar .left {
+  background-color: #da1330;
+  color: white;
+}
+
+.button-bar .right {
+  background-color: #0077ed;
+  color: white;
 }

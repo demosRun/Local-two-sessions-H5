@@ -337,7 +337,53 @@
   </ul>
   <img class="people-left-button left-button swiper-button owo-hover-grow" src="./static/resource/people-left-button.png">
   <img class="people-right-button right-button swiper-button owo-hover-grow" src="./static/resource/people-right-button.png">
-</div></div></div>
+</div></div><div class="yiantian"><a name="yiantian"></a><div class="plate-title-bar">
+<h2>
+<span style="color: #bc1b21;">视频</span>
+<span style="color: #393939;">报道</span>
+</h2>
+<p>2020地方两会<strong>特别报道</strong></p>
+</div><ul class="clear">
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+  <li>
+    <a href="#">解读2016政府工作报告释放哪释放哪些“十三五”发展信号</a>
+  </li>
+</ul></div><div class="jingcaitupian"><a name="jingcaitupian"></a><div class="plate-title-bar">
+<h2>
+<span style="color: #bc1b21;">视频</span>
+<span style="color: #393939;">报道</span>
+</h2>
+<p>2020地方两会<strong>特别报道</strong></p>
+</div><div class="swiper-box" template="ProgressBarSwiper"><div class="swiper-container clear"><div class="swiper-wrapper">
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="690" height="460"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg" width="690" height="460"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg" width="690" height="460"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div></div><div class="pagination clear"></div><span class="index"></span></div></div></div><div class="button-bar clear"><div class="left fl">其他省份</div><div class="right fl">我要留言</div></div></div>
     
 
     <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"  charset="UTF-8"></script>
@@ -364,42 +410,11 @@ owo.script = {
       "ProgressBarSwiper": {
         "data": {
           "swiper": null
-        },
-        "created": function created() {
-          var _this = this;
-
-          var slideListLength = owo.query('.swiper-wrapper .swiper-slide').length;
-          owo.query('.index')[0].innerText = '1/' + slideListLength; // 轮播图展示区域swiper
-
-          setTimeout(function () {
-            _this.data.swiper = new Swiper(owo.query('.swiper-container')[0], {
-              autoplay: {
-                delay: 3000
-              },
-              pagination: {
-                el: owo.query('.pagination')[0]
-              },
-              loop: true,
-              onSlideChangeStart: function onSlideChangeStart(swiper) {
-                var index = null;
-                if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex;else index = 1;
-                owo.query('.index')[0].innerText = index + '/' + slideListLength;
-              }
-            });
-            setTimeout(function () {
-              var switchList = owo.query('.pagination .swiper-pagination-bullet');
-
-              for (var ind = 0; ind < switchList.length; ind++) {
-                switchList[ind].style.width = 100 / slideListLength + '%';
-              }
-            }, 100);
-          }, 0);
-        },
-        "previou": function previou() {
-          this.data.swiper.swipePrev();
-        },
-        "next": function next() {
-          this.data.swiper.swipeNext();
+        }
+      },
+      "ProgressBarSwiper-1": {
+        "data": {
+          "swiper": null
         }
       }
     }
@@ -407,42 +422,11 @@ owo.script = {
   "ProgressBarSwiper": {
     "data": {
       "swiper": null
-    },
-    "created": function created() {
-      var _this2 = this;
-
-      var slideListLength = owo.query('.swiper-wrapper .swiper-slide').length;
-      owo.query('.index')[0].innerText = '1/' + slideListLength; // 轮播图展示区域swiper
-
-      setTimeout(function () {
-        _this2.data.swiper = new Swiper(owo.query('.swiper-container')[0], {
-          autoplay: {
-            delay: 3000
-          },
-          pagination: {
-            el: owo.query('.pagination')[0]
-          },
-          loop: true,
-          onSlideChangeStart: function onSlideChangeStart(swiper) {
-            var index = null;
-            if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex;else index = 1;
-            owo.query('.index')[0].innerText = index + '/' + slideListLength;
-          }
-        });
-        setTimeout(function () {
-          var switchList = owo.query('.pagination .swiper-pagination-bullet');
-
-          for (var ind = 0; ind < switchList.length; ind++) {
-            switchList[ind].style.width = 100 / slideListLength + '%';
-          }
-        }, 100);
-      }, 0);
-    },
-    "previou": function previou() {
-      this.data.swiper.swipePrev();
-    },
-    "next": function next() {
-      this.data.swiper.swipeNext();
+    }
+  },
+  "ProgressBarSwiper-1": {
+    "data": {
+      "swiper": null
     }
   }
 };</script>

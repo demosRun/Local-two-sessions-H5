@@ -76,4 +76,74 @@ $(function () {
       })
     }
   } catch (error) {}
+
+  // 报道焦点轮播图
+  try {
+    if ($('.people-box').length > 0) {
+      var swiperPeople = new Swiper($('.people-box')[0], {
+        loop: true,
+        paginationClickable: true
+      });
+    }
+  } catch (error) {}
+
+
+  try {
+    var slideListLength = $('.main-box .swiper-wrapper .swiper-slide').length
+    $('.main-box .index')[0].innerText = '1/' + slideListLength
+    // 轮播图展示区域swiper
+    setTimeout(() => {
+      var swiperMain = new Swiper($('.main-box .swiper-container')[0], {
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: $('.main-box .pagination')[0]
+        },
+        loop: true,
+        onSlideChangeStart: function (swiper) {
+          let index = null
+          if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex
+          else index = 1
+          $('.main-box .index')[0].innerText = index + '/' + slideListLength
+        }
+      })
+      setTimeout(() => {
+        var switchList = $('.main-box .pagination .swiper-pagination-bullet')
+        for (let ind = 0; ind < switchList.length; ind++) {
+          switchList[ind].style.width = (100 / slideListLength) + '%'
+        }
+      }, 100)
+    }, 0)
+  } catch (error) {}
+
+  try {
+    var slideListLength = $('.jingcaitupian .swiper-wrapper .swiper-slide').length
+    $('.jingcaitupian .index')[0].innerText = '1/' + slideListLength
+    // 轮播图展示区域swiper
+    setTimeout(() => {
+      var swiperMain = new Swiper($('.jingcaitupian .swiper-container')[0], {
+        autoplay: {
+          delay: 3000,
+        },
+        pagination: {
+          el: $('.jingcaitupian .pagination')[0]
+        },
+        loop: true,
+        onSlideChangeStart: function (swiper) {
+          let index = null
+          if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex
+          else index = 1
+          $('.jingcaitupian .index')[0].innerText = index + '/' + slideListLength
+        }
+      })
+      setTimeout(() => {
+        var switchList = $('.jingcaitupian .pagination .swiper-pagination-bullet')
+        for (let ind = 0; ind < switchList.length; ind++) {
+          switchList[ind].style.width = (100 / slideListLength) + '%'
+        }
+      }, 100)
+    }, 0)
+  } catch (error) {}
+  
 })

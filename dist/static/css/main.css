@@ -48,3 +48,10 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .fr {
   float: right;
 }
+
+.yiantian ul {
+  width: 90vw;
+  margin: 0 auto;
+  line-height: 24px;
+  color: #222;
+}
