@@ -56,12 +56,20 @@ li {
 .title-bar {
   background-image: url('../resource/title-bar.png');
   background-repeat: no-repeat;
-  background-size: auto 80%;
+  background-size: auto 70%;
   width: 100%;
+  position: absolute;
+  top: 61vw;
+  z-index: 999;
   background-position: right;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   background-color: #de2e36;
+}
+
+.title-bar.active {
+  position: fixed;
+  top: 0;
 }
 
 .title-bar ul {
@@ -78,11 +86,6 @@ li {
   color: white;
   margin: 0 10px;
   cursor: pointer;
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .title-bar li:hover {
@@ -147,8 +150,9 @@ li {
 .swiper-box {
   height: 60vw;
   overflow: hidden;
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 .swiper-box img {
@@ -168,24 +172,24 @@ li {
 }
 
 .swiper-box .swiper-container {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 60vw;
-  margin: 0;
   overflow: hidden;
   position: relative;
 }
 
-.swiper-box .swiper-container .pagination {
+.swiper-box .pagination.swiper-pagination-bullets {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 5%;
   height: 5px;
-  width: 100%;
+  width: 90%;
   background-color: black;
   z-index: 9;
 }
 
-.swiper-box .swiper-container .pagination .swiper-pagination-bullet {
+.swiper-box .pagination .swiper-pagination-bullet {
   height: 5px;
   display: block;
   background-color: black;
@@ -197,7 +201,7 @@ li {
   padding: 0;
 }
 
-.swiper-box .swiper-container .pagination .swiper-pagination-bullet-active {
+.swiper-box .pagination .swiper-pagination-bullet-active {
   background-color: #064cc0;
 }
 
@@ -211,17 +215,36 @@ li {
 
 .swiper-box .previou {
   position: absolute;
-  width: auto;
+  width: 5vw;
   height: auto;
-  bottom: 10px;
-  right: 70px;
+  left: 0vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   cursor: pointer;
+  display: none;
+}
+.swiper-container-3 {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-box .next {
+  position: absolute;
+  width: 5vw;
+  height: auto;
+  right: 0vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  display: none;
 }
 
 .swiper-box .index {
   position: absolute;
   bottom: 9px;
-  right: 10px;
+  right: 7vw;
   color: white;
   font-size: 18px;
   line-height: 20px;
@@ -385,6 +408,7 @@ li {
 }
 
 .plate-title-bar h2 {
+  display: flex;
   height: 17vw;
   line-height: 17vw;
 }
@@ -401,7 +425,7 @@ li {
 .plate-title-bar strong {
   color: #494949;
 }
-.video-box .right {
+.video-box .right .swiper-container-3 {
   display: none;
 }
 
@@ -409,11 +433,61 @@ li {
   width: 90vw;
   height: 50vw;
   margin: 0 auto;
+  position: relative;
+}
+.video-box video, .video-box embed {
+  width: 100%;
+  height: 100%;
 }
 
 .video-box .left {
   width: 100%;
   height: 100%;
+}
+
+.video-box .down {
+  position: absolute;
+  width: 5vw;
+  height: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  background-image: url("../resource/left.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5vw;
+}
+
+.video-box .right {
+  width: 100vw;
+  height: 100%;
+  left: -5vw;
+  position: absolute;
+  z-index: 9;
+}
+
+.video-box .up {
+  position: absolute;
+  width: 5vw;
+  height: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  background-image: url("../resource/right.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 5vw;
+}
+
+.control-bar {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 .unscramble li {
   background-image: url('../resource/list-icon.png');
@@ -434,7 +508,7 @@ li {
   width: 90vw;
   height: 52vw;
   margin: 0 auto;
-  overflow: hidden;
+  position: relative;
 }
 
 .focus-box .swiper-container-2,
@@ -445,12 +519,38 @@ li {
   position: relative;
 }
 
+.focus-box .swiper-container-2 {
+  width: 90vw;
+  overflow: hidden;
+}
+
+.focus-left-button {
+  position: absolute;
+  left: -5vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5vw;
+  height: auto;
+  z-index: 9;
+}
+
+.focus-right-button {
+  position: absolute;
+  right: -5vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5vw;
+  height: auto;
+  z-index: 9;
+}
 .focus-box .swiper-slide-item {
   position: relative;
 }
 
-.focus-box img,
-.focus-box a {
+.focus-box .swiper-container-2 img,
+.focus-box .swiper-container-2 a {
   width: 100%;
   height: 100%;
   display: block;
@@ -466,11 +566,69 @@ li {
   width: 96%;
   color: #212121;
 }
-.people-box {
+.swiper-container-4 {
   width: 90vw;
   height: 49vw;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.people-box {
+  height: 49vw;
+  margin: 0 auto;
+  position: relative;
+}
+
+.people-box .people-left-button {
+  position: absolute;
+  left: 0vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5vw;
+  height: auto;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.people-box .people-right-button {
+  position: absolute;
+  right: 0vw;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5vw;
+  height: auto;
+  z-index: 9;
+}
+
+.people-box .left {
+  height: 100%;
+  width: 40vw;
+  float: left;
+}
+
+.people-box .right {
+  float: left;
+  height: 100%;
+  width: 46vw;
+  padding-left: 3vw;
+}
+
+.people-box .right h2 {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.people-box .right h3 {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 5px 0;
+}
+
+.people-box .right p {
+  height: 30vw;
+  overflow: auto;
 }
 
 .people-box img,
@@ -483,6 +641,7 @@ li {
 .main-image {
   width: 100%;
   display: block;
+  margin-bottom: 60px;
 }
 
 .main-title {
@@ -526,7 +685,10 @@ li {
 .button-bar {
   height: 40px;
   line-height: 40px;
-  margin-top: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .button-bar .fl {
@@ -542,4 +704,39 @@ li {
 .button-bar .right {
   background-color: #0077ed;
   color: white;
+}
+
+.button-bar .fl a {
+  color: white;
+  font-size: 18px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.li-box {
+  width: 100%;
+  height: 100%;
+}
+
+.three-image-box {
+  height: 20vw;
+  overflow: hidden;
+  margin: 20px 4vw;
+  display: flex;
+}
+
+.three-image-box li {
+  height: 100%;
+  width: 30vw;
+  margin: 0 1vw;
+}
+
+.three-image-box a, .three-image-box img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }

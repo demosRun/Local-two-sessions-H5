@@ -1,3 +1,13 @@
+window.onscroll = function() {
+  var a = document.documentElement.scrollTop || document.body.scrollTop
+  if (a > (document.body.offsetWidth * 0.6)) {
+    $('.title-bar').addClass('active')
+  } else {
+    $('.title-bar').removeClass('active')
+  }
+}
+
+
 $(function () {
   // 日历
   try {
@@ -46,16 +56,32 @@ $(function () {
 
   try {
     if ($('.video-box .right').length > 0) {
-      // 更换初始视频
-      $('.video-box .swiper-wrapper .swiper-slide').first().addClass('is-active')
-      $('.video-box .left')[0].innerHTML = $('.video-box .swiper-wrapper .swiper-slide .video')[0].innerHTML
+      var lenAll = $('.video-box .swiper-wrapper .swiper-slide .video').length
+      var activeIndex = 0
+      console.log(lenAll)
+      function changeActive (index) {
+        showPlayer({
+          id: $('.video-box .swiper-wrapper .swiper-slide .video')[index].innerHTML,
+          box: $('.video-box .left')[0]
+        })
+      }
 
+      setTimeout(() => {
+        changeActive(activeIndex)
+      }, 100)
       // 点击切换事件
       $(".fl.up").click(function() {
+        activeIndex++
+        if (activeIndex >= lenAll) activeIndex = 0
+        changeActive(activeIndex)
         // swiper3.swipePrev();
       })
       $(".fl.down").click(function() {
-        // swiper3.swipeNext();
+        
+        activeIndex--
+        if (activeIndex <= 0) activeIndex = lenAll - 1
+        console.log(activeIndex)
+        changeActive(activeIndex)
       })
     }
   } catch (error) {}
@@ -63,30 +89,16 @@ $(function () {
   // 报道焦点轮播图
   try {
     if ($('.swiper-container-2').length > 0) {
-      var swiper = new Swiper($('.swiper-container-2')[0], {
+      var swiperfocus = new Swiper($('.swiper-container-2')[0], {
         loop: true,
-        paginationClickable: true
-      });
-      // 点击切换事件
-      $(".focus-left-button").click(function() {
-        swiper.swipePrev();
-      })
-      $(".focus-right-button").click(function() {
-        swiper.swipeNext();
+        paginationClickable: true,
+        navigation: {
+          nextEl: $(".focus-right-button")[0],
+          prevEl: $(".focus-left-button")[0],
+        }
       })
     }
   } catch (error) {}
-
-  // 报道焦点轮播图
-  try {
-    if ($('.people-box').length > 0) {
-      var swiperPeople = new Swiper($('.people-box')[0], {
-        loop: true,
-        paginationClickable: true
-      });
-    }
-  } catch (error) {}
-
 
   try {
     var slideListLength = $('.main-box .swiper-wrapper .swiper-slide').length
@@ -100,16 +112,24 @@ $(function () {
         pagination: {
           el: $('.main-box .pagination')[0]
         },
+        navigation: {
+          nextEl: '.main-box .next',
+          prevEl: '.main-box .previou',
+        },
         loop: true,
-        onSlideChangeStart: function (swiper) {
-          let index = null
-          if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex
-          else index = 1
-          $('.main-box .index')[0].innerText = index + '/' + slideListLength
+        on: {
+          slideChange: function () {
+            if (!swiperMain) return
+            // console.log(swiperMain)
+            let index = null
+            if (swiperMain.activeIndex <= slideListLength) index = swiperMain.activeIndex
+            else index = 1
+            $('.main-box .index')[0].innerText = index + '/' + slideListLength
+          }
         }
       })
       setTimeout(() => {
-        var switchList = $('.main-box .pagination .swiper-pagination-bullet')
+        var switchList = $('.main-box .swiper-pagination-bullet')
         for (let ind = 0; ind < switchList.length; ind++) {
           switchList[ind].style.width = (100 / slideListLength) + '%'
         }
@@ -122,19 +142,27 @@ $(function () {
     $('.jingcaitupian .index')[0].innerText = '1/' + slideListLength
     // 轮播图展示区域swiper
     setTimeout(() => {
-      var swiperMain = new Swiper($('.jingcaitupian .swiper-container')[0], {
+      var swiperTu = new Swiper($('.jingcaitupian .swiper-container')[0], {
         autoplay: {
           delay: 3000,
+        },
+        navigation: {
+          nextEl: '.jingcaitupian .next',
+          prevEl: '.jingcaitupian .previou',
         },
         pagination: {
           el: $('.jingcaitupian .pagination')[0]
         },
         loop: true,
-        onSlideChangeStart: function (swiper) {
-          let index = null
-          if (swiper.activeIndex <= slideListLength) index = swiper.activeIndex
-          else index = 1
-          $('.jingcaitupian .index')[0].innerText = index + '/' + slideListLength
+        on: {
+          slideChange: function () {
+            if (!swiperTu) return
+            // console.log(swiperTu)
+            let index = null
+            if (swiperTu.activeIndex <= slideListLength) index = swiperTu.activeIndex
+            else index = 1
+            $('.jingcaitupian .index')[0].innerText = index + '/' + slideListLength
+          }
         }
       })
       setTimeout(() => {
@@ -146,4 +174,17 @@ $(function () {
     }, 0)
   } catch (error) {}
   
+  // 人物报导
+  try {
+    new Swiper($('.swiper-container-4')[0], {
+      autoplay: {
+        delay: 3000,
+      },
+      navigation: {
+        nextEl: '.people-right-button',
+        prevEl: '.people-left-button',
+      },
+      loop: true,
+    })
+  } catch (error) {}
 })
