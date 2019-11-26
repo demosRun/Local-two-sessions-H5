@@ -1,503 +1,127 @@
-[2019-11-25T21:48:00.056] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-25T21:48:00.058] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5
-[2019-11-25T21:48:00.058] [INFO] default - 首次启动!
-[2019-11-25T21:48:00.058] [INFO] default - 生成版本号: 7meqri3wuws
-[2019-11-25T21:48:00.064] [INFO] default - 清理资源文件夹: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static
-[2019-11-25T21:48:00.064] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static
-[2019-11-25T21:48:00.064] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static
-[2019-11-25T21:48:00.064] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-25T21:48:00.065] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-25T21:48:00.065] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-25T21:48:00.066] [INFO] default - 开始处理模块: one
-[2019-11-25T21:48:00.521] [INFO] default - 开始处理模块: titleBar
-[2019-11-25T21:48:00.539] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
-[2019-11-25T21:48:00.595] [DEBUG] default - 模块titleBar处理用时: 75 毫秒!
-[2019-11-25T21:48:00.595] [INFO] default - 开始处理模块: ProgressBarSwiper
-[2019-11-25T21:48:00.596] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Local-two-sessions-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
-[2019-11-25T21:48:00.610] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
-[2019-11-25T21:48:00.619] [DEBUG] default - 模块ProgressBarSwiper处理用时: 24 毫秒!
-[2019-11-25T21:48:00.620] [INFO] default - 开始处理模块: agenda
-[2019-11-25T21:48:00.630] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
-[2019-11-25T21:48:00.637] [DEBUG] default - 模块agenda处理用时: 17 毫秒!
-[2019-11-25T21:48:00.637] [INFO] default - 开始处理模块: calendar
-[2019-11-25T21:48:00.651] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
-[2019-11-25T21:48:00.660] [DEBUG] default - 模块calendar处理用时: 23 毫秒!
-[2019-11-25T21:48:00.661] [INFO] default - 开始处理模块: rollingNews
-[2019-11-25T21:48:00.674] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
-[2019-11-25T21:48:00.690] [DEBUG] default - 模块rollingNews处理用时: 29 毫秒!
-[2019-11-25T21:48:00.690] [INFO] default - 开始处理模块: title
-[2019-11-25T21:48:00.698] [DEBUG] default - 缓存模板: title./src/module/title.owo
-[2019-11-25T21:48:00.701] [DEBUG] default - 模块title处理用时: 11 毫秒!
-[2019-11-25T21:48:00.701] [INFO] default - 开始处理模块: videoBox
-[2019-11-25T21:48:00.710] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
-[2019-11-25T21:48:00.716] [DEBUG] default - 模块videoBox处理用时: 15 毫秒!
-[2019-11-25T21:48:00.717] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
-[2019-11-25T21:48:00.717] [INFO] default - 开始处理模块: title-1
-[2019-11-25T21:48:00.717] [DEBUG] default - 使用缓存返回模板: title-1
-[2019-11-25T21:48:00.718] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T21:48:00.718] [INFO] default - 开始处理模块: unscramble
-[2019-11-25T21:48:00.722] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
-[2019-11-25T21:48:00.725] [DEBUG] default - 模块unscramble处理用时: 7 毫秒!
-[2019-11-25T21:48:00.725] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
-[2019-11-25T21:48:00.725] [INFO] default - 开始处理模块: title-2
-[2019-11-25T21:48:00.725] [DEBUG] default - 使用缓存返回模板: title-2
-[2019-11-25T21:48:00.726] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T21:48:00.727] [INFO] default - 开始处理模块: focusBox
-[2019-11-25T21:48:00.734] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
-[2019-11-25T21:48:00.741] [DEBUG] default - 模块focusBox处理用时: 15 毫秒!
-[2019-11-25T21:48:00.742] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
-[2019-11-25T21:48:00.742] [INFO] default - 开始处理模块: title-3
-[2019-11-25T21:48:00.742] [DEBUG] default - 使用缓存返回模板: title-3
-[2019-11-25T21:48:00.743] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T21:48:00.743] [INFO] default - 开始处理模块: peopleBox
-[2019-11-25T21:48:00.752] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
-[2019-11-25T21:48:00.758] [DEBUG] default - 模块peopleBox处理用时: 15 毫秒!
-[2019-11-25T21:48:00.763] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-11-25T21:48:00.766] [DEBUG] default - 页面one处理用时: 700 毫秒!
-[2019-11-25T21:48:00.772] [INFO] default - 文件夹不存在: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/dist/static/resource
-[2019-11-25T21:48:00.772] [INFO] default - 创建文件夹: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/dist/static/resource
-[2019-11-25T21:48:00.773] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title-bar.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/calendar.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/rolling-news.jpg',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/list-icon.png' ]
-[2019-11-25T21:48:00.774] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Local-two-sessions-H5/dist/static/resource
-[2019-11-25T21:48:00.776] [DEBUG] default - css中的资源处理完毕!
-[2019-11-25T21:48:01.441] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-25T21:48:01.498] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css
-[2019-11-25T21:48:01.498] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css
-[2019-11-25T21:48:01.498] [INFO] default - 开始处理附属css中的资源
-[2019-11-25T21:48:01.499] [INFO] default - 附属css中的资源处理完毕!
-[2019-11-25T21:48:01.499] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.css
-[2019-11-25T21:48:01.499] [INFO] default - 附属css中的资源不需要处理!
-[2019-11-25T21:48:01.499] [INFO] default - 处理字体: {}
-[2019-11-25T21:48:01.658] [INFO] default - 使用postcss处理完毕! 用时: 217 毫秒
-[2019-11-25T21:48:01.659] [INFO] default - 正在处理script!
-[2019-11-25T21:48:01.660] [DEBUG] default - 选择将js合并到html中!
-[2019-11-25T21:48:02.398] [INFO] default - 工程中只有一个页面!
-[2019-11-25T21:48:02.399] [INFO] default - js中的资源处理完毕!
-[2019-11-25T21:48:02.399] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-25T21:48:02.400] [DEBUG] default - 外部脚本数量: 3
-[2019-11-25T21:48:02.400] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-25T21:48:02.400] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-25T21:48:02.400] [DEBUG] default - 处理脚本: swiper.4.5.0
-[2019-11-25T21:48:02.400] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T21:48:02.400] [DEBUG] default - 处理脚本: main
-[2019-11-25T21:48:02.400] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:48:02.400] [DEBUG] default - 输出scriptData
-[2019-11-25T21:48:02.400] [DEBUG] default - 准备输出html!
-[2019-11-25T21:48:02.401] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:48:02.401] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:48:02.401] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:48:02.401] [DEBUG] default - 处理资源:  [ 'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/bg.jpg',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-1.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-2.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-4.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-3.png',
-  'C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg' ]
-[2019-11-25T21:48:02.401] [DEBUG] default - 资源目录:  C:/Users/my/Documents/GitHub/Local-two-sessions-H5/dist/static/resource
-[2019-11-25T21:48:02.403] [INFO] default - 文件夹不存在: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js
-[2019-11-25T21:48:02.403] [INFO] default - 创建文件夹: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js
-[2019-11-25T21:48:02.404] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-25T21:48:02.405] [INFO] default - 编译结束!
-[2019-11-25T21:48:02.405] [INFO] default - 发送页面需要刷新命令!
-[2019-11-25T21:48:02.420] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\owo.main.css
-[2019-11-25T21:48:02.420] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.css
-[2019-11-25T21:48:02.421] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:48:02.421] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-25T21:48:02.499] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.css
-[2019-11-25T21:48:02.529] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\main.css
-[2019-11-25T21:48:02.530] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\main.js
-[2019-11-25T21:48:02.534] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\swiper4.5.0.css
-[2019-11-25T21:48:02.582] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T21:48:02.591] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\swiper.4.5.0.js
-[2019-11-25T21:59:36.409] [INFO] default - file change: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:59:36.410] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-25T21:59:36.410] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5
-[2019-11-25T21:59:36.410] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:59:36.410] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-25T21:59:36.410] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-25T21:59:36.410] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-25T21:59:36.411] [INFO] default - 开始处理模块: one
-[2019-11-25T21:59:36.449] [INFO] default - 开始处理模块: titleBar
-[2019-11-25T21:59:36.463] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
-[2019-11-25T21:59:36.475] [DEBUG] default - 模块titleBar处理用时: 26 毫秒!
-[2019-11-25T21:59:36.476] [INFO] default - 开始处理模块: ProgressBarSwiper
-[2019-11-25T21:59:36.476] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Local-two-sessions-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
-[2019-11-25T21:59:36.487] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
-[2019-11-25T21:59:36.496] [DEBUG] default - 模块ProgressBarSwiper处理用时: 20 毫秒!
-[2019-11-25T21:59:36.497] [INFO] default - 开始处理模块: agenda
-[2019-11-25T21:59:36.508] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
-[2019-11-25T21:59:36.514] [DEBUG] default - 模块agenda处理用时: 17 毫秒!
-[2019-11-25T21:59:36.515] [INFO] default - 开始处理模块: calendar
-[2019-11-25T21:59:36.526] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
-[2019-11-25T21:59:36.538] [DEBUG] default - 模块calendar处理用时: 24 毫秒!
-[2019-11-25T21:59:36.539] [INFO] default - 开始处理模块: rollingNews
-[2019-11-25T21:59:36.550] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
-[2019-11-25T21:59:36.561] [DEBUG] default - 模块rollingNews处理用时: 23 毫秒!
-[2019-11-25T21:59:36.561] [INFO] default - 开始处理模块: title
-[2019-11-25T21:59:36.566] [DEBUG] default - 缓存模板: title./src/module/title.owo
-[2019-11-25T21:59:36.570] [DEBUG] default - 模块title处理用时: 9 毫秒!
-[2019-11-25T21:59:36.570] [INFO] default - 开始处理模块: videoBox
-[2019-11-25T21:59:36.582] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
-[2019-11-25T21:59:36.588] [DEBUG] default - 模块videoBox处理用时: 18 毫秒!
-[2019-11-25T21:59:36.589] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
-[2019-11-25T21:59:36.589] [INFO] default - 开始处理模块: title-1
-[2019-11-25T21:59:36.589] [DEBUG] default - 使用缓存返回模板: title-1
-[2019-11-25T21:59:36.592] [DEBUG] default - 模块title处理用时: 3 毫秒!
-[2019-11-25T21:59:36.593] [INFO] default - 开始处理模块: unscramble
-[2019-11-25T21:59:36.597] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
-[2019-11-25T21:59:36.603] [DEBUG] default - 模块unscramble处理用时: 8 毫秒!
-[2019-11-25T21:59:36.603] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
-[2019-11-25T21:59:36.603] [INFO] default - 开始处理模块: title-2
-[2019-11-25T21:59:36.603] [DEBUG] default - 使用缓存返回模板: title-2
-[2019-11-25T21:59:36.606] [DEBUG] default - 模块title处理用时: 3 毫秒!
-[2019-11-25T21:59:36.606] [INFO] default - 开始处理模块: focusBox
-[2019-11-25T21:59:36.610] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
-[2019-11-25T21:59:36.616] [DEBUG] default - 模块focusBox处理用时: 10 毫秒!
-[2019-11-25T21:59:36.616] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
-[2019-11-25T21:59:36.616] [INFO] default - 开始处理模块: title-3
-[2019-11-25T21:59:36.616] [DEBUG] default - 使用缓存返回模板: title-3
-[2019-11-25T21:59:36.617] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T21:59:36.617] [INFO] default - 开始处理模块: peopleBox
-[2019-11-25T21:59:36.627] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
-[2019-11-25T21:59:36.633] [DEBUG] default - 模块peopleBox处理用时: 16 毫秒!
-[2019-11-25T21:59:36.637] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-11-25T21:59:36.640] [DEBUG] default - 页面one处理用时: 229 毫秒!
-[2019-11-25T21:59:36.641] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title-bar.png
-[2019-11-25T21:59:36.641] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/calendar.png
-[2019-11-25T21:59:36.641] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/rolling-news.jpg
-[2019-11-25T21:59:36.641] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title.png
-[2019-11-25T21:59:36.641] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/list-icon.png
-[2019-11-25T21:59:36.641] [DEBUG] default - css中的资源处理完毕!
-[2019-11-25T21:59:36.641] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-25T21:59:36.655] [INFO] default - 处理字体: {}
-[2019-11-25T21:59:36.658] [INFO] default - 使用postcss处理完毕! 用时: 17 毫秒
-[2019-11-25T21:59:36.659] [INFO] default - 正在处理script!
-[2019-11-25T21:59:36.660] [DEBUG] default - 选择将js合并到html中!
-[2019-11-25T21:59:36.721] [INFO] default - 工程中只有一个页面!
-[2019-11-25T21:59:36.722] [INFO] default - js中的资源处理完毕!
-[2019-11-25T21:59:36.722] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-25T21:59:36.722] [DEBUG] default - 外部脚本数量: 3
-[2019-11-25T21:59:36.722] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-25T21:59:36.722] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-25T21:59:36.722] [DEBUG] default - 处理脚本: swiper.4.5.0
-[2019-11-25T21:59:36.722] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T21:59:36.723] [DEBUG] default - 处理脚本: main
-[2019-11-25T21:59:36.723] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:59:36.723] [DEBUG] default - 输出scriptData
-[2019-11-25T21:59:36.723] [DEBUG] default - 准备输出html!
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/bg.jpg
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-1.png
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-2.png
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-4.png
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-3.png
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:59:36.723] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T21:59:36.725] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-25T21:59:36.725] [INFO] default - 编译结束!
-[2019-11-25T21:59:36.726] [INFO] default - 发送页面需要刷新命令!
-[2019-11-25T21:59:36.730] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\owo.main.css
-[2019-11-25T21:59:36.730] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-25T21:59:36.731] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T21:59:36.734] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\main.js
-[2019-11-25T21:59:36.756] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T21:59:36.757] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\swiper.4.5.0.js
-[2019-11-25T22:18:36.192] [INFO] default - file change: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\module\yiantian.owo
-[2019-11-25T22:18:36.192] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-25T22:18:36.192] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5
-[2019-11-25T22:18:36.192] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\module\yiantian.owo
-[2019-11-25T22:18:36.192] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-25T22:18:36.193] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-25T22:18:36.193] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-25T22:18:36.193] [INFO] default - 开始处理模块: one
-[2019-11-25T22:18:36.223] [INFO] default - 开始处理模块: titleBar
-[2019-11-25T22:18:36.235] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
-[2019-11-25T22:18:36.246] [DEBUG] default - 模块titleBar处理用时: 23 毫秒!
-[2019-11-25T22:18:36.247] [INFO] default - 开始处理模块: ProgressBarSwiper
-[2019-11-25T22:18:36.248] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Local-two-sessions-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
-[2019-11-25T22:18:36.259] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
-[2019-11-25T22:18:36.268] [DEBUG] default - 模块ProgressBarSwiper处理用时: 21 毫秒!
-[2019-11-25T22:18:36.269] [INFO] default - 开始处理模块: agenda
-[2019-11-25T22:18:36.279] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
-[2019-11-25T22:18:36.287] [DEBUG] default - 模块agenda处理用时: 18 毫秒!
-[2019-11-25T22:18:36.287] [INFO] default - 开始处理模块: calendar
-[2019-11-25T22:18:36.296] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
-[2019-11-25T22:18:36.306] [DEBUG] default - 模块calendar处理用时: 19 毫秒!
-[2019-11-25T22:18:36.307] [INFO] default - 开始处理模块: rollingNews
-[2019-11-25T22:18:36.318] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
-[2019-11-25T22:18:36.328] [DEBUG] default - 模块rollingNews处理用时: 22 毫秒!
-[2019-11-25T22:18:36.328] [INFO] default - 开始处理模块: title
-[2019-11-25T22:18:36.333] [DEBUG] default - 缓存模板: title./src/module/title.owo
-[2019-11-25T22:18:36.338] [DEBUG] default - 模块title处理用时: 10 毫秒!
-[2019-11-25T22:18:36.338] [INFO] default - 开始处理模块: videoBox
-[2019-11-25T22:18:36.348] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
-[2019-11-25T22:18:36.354] [DEBUG] default - 模块videoBox处理用时: 16 毫秒!
-[2019-11-25T22:18:36.355] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
-[2019-11-25T22:18:36.355] [INFO] default - 开始处理模块: title-1
-[2019-11-25T22:18:36.355] [DEBUG] default - 使用缓存返回模板: title-1
-[2019-11-25T22:18:36.356] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:18:36.356] [INFO] default - 开始处理模块: unscramble
-[2019-11-25T22:18:36.362] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
-[2019-11-25T22:18:36.365] [DEBUG] default - 模块unscramble处理用时: 9 毫秒!
-[2019-11-25T22:18:36.366] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
-[2019-11-25T22:18:36.366] [INFO] default - 开始处理模块: title-2
-[2019-11-25T22:18:36.366] [DEBUG] default - 使用缓存返回模板: title-2
-[2019-11-25T22:18:36.369] [DEBUG] default - 模块title处理用时: 3 毫秒!
-[2019-11-25T22:18:36.369] [INFO] default - 开始处理模块: focusBox
-[2019-11-25T22:18:36.375] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
-[2019-11-25T22:18:36.381] [DEBUG] default - 模块focusBox处理用时: 12 毫秒!
-[2019-11-25T22:18:36.381] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
-[2019-11-25T22:18:36.381] [INFO] default - 开始处理模块: title-3
-[2019-11-25T22:18:36.381] [DEBUG] default - 使用缓存返回模板: title-3
-[2019-11-25T22:18:36.382] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:18:36.382] [INFO] default - 开始处理模块: peopleBox
-[2019-11-25T22:18:36.395] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
-[2019-11-25T22:18:36.400] [DEBUG] default - 模块peopleBox处理用时: 18 毫秒!
-[2019-11-25T22:18:36.404] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-11-25T22:18:36.407] [DEBUG] default - 页面one处理用时: 214 毫秒!
-[2019-11-25T22:18:36.408] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title-bar.png
-[2019-11-25T22:18:36.408] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/calendar.png
-[2019-11-25T22:18:36.408] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/rolling-news.jpg
-[2019-11-25T22:18:36.408] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title.png
-[2019-11-25T22:18:36.408] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/list-icon.png
-[2019-11-25T22:18:36.408] [DEBUG] default - css中的资源处理完毕!
-[2019-11-25T22:18:36.408] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-25T22:18:36.419] [INFO] default - 处理字体: {}
-[2019-11-25T22:18:36.422] [INFO] default - 使用postcss处理完毕! 用时: 14 毫秒
-[2019-11-25T22:18:36.422] [INFO] default - 正在处理script!
-[2019-11-25T22:18:36.423] [DEBUG] default - 选择将js合并到html中!
-[2019-11-25T22:18:36.463] [INFO] default - 工程中只有一个页面!
-[2019-11-25T22:18:36.464] [INFO] default - js中的资源处理完毕!
-[2019-11-25T22:18:36.464] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-25T22:18:36.464] [DEBUG] default - 外部脚本数量: 3
-[2019-11-25T22:18:36.464] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-25T22:18:36.464] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-25T22:18:36.464] [DEBUG] default - 处理脚本: swiper.4.5.0
-[2019-11-25T22:18:36.464] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:18:36.464] [DEBUG] default - 处理脚本: main
-[2019-11-25T22:18:36.464] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:18:36.464] [DEBUG] default - 输出scriptData
-[2019-11-25T22:18:36.464] [DEBUG] default - 准备输出html!
-[2019-11-25T22:18:36.464] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/bg.jpg
-[2019-11-25T22:18:36.464] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-1.png
-[2019-11-25T22:18:36.464] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-2.png
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-4.png
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-3.png
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:36.465] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:36.466] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-25T22:18:36.466] [INFO] default - 编译结束!
-[2019-11-25T22:18:36.467] [INFO] default - 发送页面需要刷新命令!
-[2019-11-25T22:18:36.470] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\owo.main.css
-[2019-11-25T22:18:36.471] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-25T22:18:36.472] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:18:36.479] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\main.js
-[2019-11-25T22:18:36.494] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:18:36.495] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\swiper.4.5.0.js
-[2019-11-25T22:18:54.330] [INFO] default - file change: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\page\one.owo
-[2019-11-25T22:18:54.330] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-25T22:18:54.330] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5
-[2019-11-25T22:18:54.330] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\page\one.owo
-[2019-11-25T22:18:54.330] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-25T22:18:54.331] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-25T22:18:54.331] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-25T22:18:54.331] [INFO] default - 开始处理模块: one
-[2019-11-25T22:18:54.368] [INFO] default - 开始处理模块: titleBar
-[2019-11-25T22:18:54.380] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
-[2019-11-25T22:18:54.390] [DEBUG] default - 模块titleBar处理用时: 22 毫秒!
-[2019-11-25T22:18:54.390] [INFO] default - 开始处理模块: ProgressBarSwiper
-[2019-11-25T22:18:54.390] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Local-two-sessions-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
-[2019-11-25T22:18:54.400] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
-[2019-11-25T22:18:54.408] [DEBUG] default - 模块ProgressBarSwiper处理用时: 18 毫秒!
-[2019-11-25T22:18:54.409] [INFO] default - 开始处理模块: agenda
-[2019-11-25T22:18:54.422] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
-[2019-11-25T22:18:54.427] [DEBUG] default - 模块agenda处理用时: 19 毫秒!
-[2019-11-25T22:18:54.428] [INFO] default - 开始处理模块: calendar
-[2019-11-25T22:18:54.435] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
-[2019-11-25T22:18:54.444] [DEBUG] default - 模块calendar处理用时: 16 毫秒!
-[2019-11-25T22:18:54.444] [INFO] default - 开始处理模块: rollingNews
-[2019-11-25T22:18:54.454] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
-[2019-11-25T22:18:54.462] [DEBUG] default - 模块rollingNews处理用时: 18 毫秒!
-[2019-11-25T22:18:54.462] [INFO] default - 开始处理模块: title
-[2019-11-25T22:18:54.468] [DEBUG] default - 缓存模板: title./src/module/title.owo
-[2019-11-25T22:18:54.471] [DEBUG] default - 模块title处理用时: 9 毫秒!
-[2019-11-25T22:18:54.471] [INFO] default - 开始处理模块: videoBox
-[2019-11-25T22:18:54.480] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
-[2019-11-25T22:18:54.490] [DEBUG] default - 模块videoBox处理用时: 19 毫秒!
-[2019-11-25T22:18:54.490] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
-[2019-11-25T22:18:54.490] [INFO] default - 开始处理模块: title-1
-[2019-11-25T22:18:54.490] [DEBUG] default - 使用缓存返回模板: title-1
-[2019-11-25T22:18:54.491] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:18:54.491] [INFO] default - 开始处理模块: unscramble
-[2019-11-25T22:18:54.495] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
-[2019-11-25T22:18:54.499] [DEBUG] default - 模块unscramble处理用时: 8 毫秒!
-[2019-11-25T22:18:54.500] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
-[2019-11-25T22:18:54.500] [INFO] default - 开始处理模块: title-2
-[2019-11-25T22:18:54.500] [DEBUG] default - 使用缓存返回模板: title-2
-[2019-11-25T22:18:54.501] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:18:54.501] [INFO] default - 开始处理模块: focusBox
-[2019-11-25T22:18:54.507] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
-[2019-11-25T22:18:54.511] [DEBUG] default - 模块focusBox处理用时: 10 毫秒!
-[2019-11-25T22:18:54.511] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
-[2019-11-25T22:18:54.512] [INFO] default - 开始处理模块: title-3
-[2019-11-25T22:18:54.512] [DEBUG] default - 使用缓存返回模板: title-3
-[2019-11-25T22:18:54.513] [DEBUG] default - 模块title处理用时: 2 毫秒!
-[2019-11-25T22:18:54.513] [INFO] default - 开始处理模块: peopleBox
-[2019-11-25T22:18:54.520] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
-[2019-11-25T22:18:54.526] [DEBUG] default - 模块peopleBox处理用时: 13 毫秒!
-[2019-11-25T22:18:54.526] [DEBUG] default - 模块 title 因名称重复被重命名为 title-4
-[2019-11-25T22:18:54.526] [INFO] default - 开始处理模块: title-4
-[2019-11-25T22:18:54.526] [DEBUG] default - 使用缓存返回模板: title-4
-[2019-11-25T22:18:54.527] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:18:54.527] [INFO] default - 开始处理模块: yiantian
-[2019-11-25T22:18:54.536] [DEBUG] default - 缓存模板: yiantian./src/module/yiantian.owo
-[2019-11-25T22:18:54.540] [DEBUG] default - 模块yiantian处理用时: 13 毫秒!
-[2019-11-25T22:18:54.544] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-11-25T22:18:54.548] [DEBUG] default - 页面one处理用时: 217 毫秒!
-[2019-11-25T22:18:54.549] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title-bar.png
-[2019-11-25T22:18:54.549] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/calendar.png
-[2019-11-25T22:18:54.549] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/rolling-news.jpg
-[2019-11-25T22:18:54.549] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title.png
-[2019-11-25T22:18:54.549] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/list-icon.png
-[2019-11-25T22:18:54.549] [DEBUG] default - css中的资源处理完毕!
-[2019-11-25T22:18:54.549] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-25T22:18:54.561] [INFO] default - 处理字体: {}
-[2019-11-25T22:18:54.564] [INFO] default - 使用postcss处理完毕! 用时: 15 毫秒
-[2019-11-25T22:18:54.564] [INFO] default - 正在处理script!
-[2019-11-25T22:18:54.565] [DEBUG] default - 选择将js合并到html中!
-[2019-11-25T22:18:54.598] [INFO] default - 工程中只有一个页面!
-[2019-11-25T22:18:54.599] [INFO] default - js中的资源处理完毕!
-[2019-11-25T22:18:54.599] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-25T22:18:54.599] [DEBUG] default - 外部脚本数量: 3
-[2019-11-25T22:18:54.599] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-25T22:18:54.599] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-25T22:18:54.599] [DEBUG] default - 处理脚本: swiper.4.5.0
-[2019-11-25T22:18:54.599] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:18:54.599] [DEBUG] default - 处理脚本: main
-[2019-11-25T22:18:54.599] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:18:54.599] [DEBUG] default - 输出scriptData
-[2019-11-25T22:18:54.599] [DEBUG] default - 准备输出html!
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/bg.jpg
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-1.png
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-2.png
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-4.png
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-3.png
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:54.600] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:18:54.601] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-25T22:18:54.602] [INFO] default - 编译结束!
-[2019-11-25T22:18:54.602] [INFO] default - 发送页面需要刷新命令!
-[2019-11-25T22:18:54.610] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\owo.main.css
-[2019-11-25T22:18:54.610] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-25T22:18:54.611] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:18:54.616] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\main.js
-[2019-11-25T22:18:54.623] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:18:54.628] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\swiper.4.5.0.js
-[2019-11-25T22:26:13.386] [INFO] default - file change: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\module\yiantian.owo
-[2019-11-25T22:26:13.386] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-11-25T22:26:13.386] [INFO] default - 程序运行目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5
-[2019-11-25T22:26:13.386] [INFO] default - 刷新模式,变化目录: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\module\yiantian.owo
-[2019-11-25T22:26:13.386] [INFO] default - 读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html
-[2019-11-25T22:26:13.387] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-11-25T22:26:13.387] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-11-25T22:26:13.387] [INFO] default - 开始处理模块: one
-[2019-11-25T22:26:13.425] [INFO] default - 开始处理模块: titleBar
-[2019-11-25T22:26:13.441] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
-[2019-11-25T22:26:13.451] [DEBUG] default - 模块titleBar处理用时: 26 毫秒!
-[2019-11-25T22:26:13.451] [INFO] default - 开始处理模块: ProgressBarSwiper
-[2019-11-25T22:26:13.451] [DEBUG] default - 使用文件缓存:C:\Users\my\Documents\GitHub\Local-two-sessions-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
-[2019-11-25T22:26:13.463] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
-[2019-11-25T22:26:13.470] [DEBUG] default - 模块ProgressBarSwiper处理用时: 19 毫秒!
-[2019-11-25T22:26:13.471] [INFO] default - 开始处理模块: agenda
-[2019-11-25T22:26:13.482] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
-[2019-11-25T22:26:13.487] [DEBUG] default - 模块agenda处理用时: 16 毫秒!
-[2019-11-25T22:26:13.487] [INFO] default - 开始处理模块: calendar
-[2019-11-25T22:26:13.497] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
-[2019-11-25T22:26:13.506] [DEBUG] default - 模块calendar处理用时: 19 毫秒!
-[2019-11-25T22:26:13.506] [INFO] default - 开始处理模块: rollingNews
-[2019-11-25T22:26:13.521] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
-[2019-11-25T22:26:13.530] [DEBUG] default - 模块rollingNews处理用时: 24 毫秒!
-[2019-11-25T22:26:13.531] [INFO] default - 开始处理模块: title
-[2019-11-25T22:26:13.535] [DEBUG] default - 缓存模板: title./src/module/title.owo
-[2019-11-25T22:26:13.538] [DEBUG] default - 模块title处理用时: 8 毫秒!
-[2019-11-25T22:26:13.538] [INFO] default - 开始处理模块: videoBox
-[2019-11-25T22:26:13.548] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
-[2019-11-25T22:26:13.560] [DEBUG] default - 模块videoBox处理用时: 22 毫秒!
-[2019-11-25T22:26:13.561] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
-[2019-11-25T22:26:13.561] [INFO] default - 开始处理模块: title-1
-[2019-11-25T22:26:13.561] [DEBUG] default - 使用缓存返回模板: title-1
-[2019-11-25T22:26:13.562] [DEBUG] default - 模块title处理用时: 2 毫秒!
-[2019-11-25T22:26:13.562] [INFO] default - 开始处理模块: unscramble
-[2019-11-25T22:26:13.565] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
-[2019-11-25T22:26:13.571] [DEBUG] default - 模块unscramble处理用时: 9 毫秒!
-[2019-11-25T22:26:13.571] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
-[2019-11-25T22:26:13.571] [INFO] default - 开始处理模块: title-2
-[2019-11-25T22:26:13.571] [DEBUG] default - 使用缓存返回模板: title-2
-[2019-11-25T22:26:13.572] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:26:13.572] [INFO] default - 开始处理模块: focusBox
-[2019-11-25T22:26:13.578] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
-[2019-11-25T22:26:13.582] [DEBUG] default - 模块focusBox处理用时: 10 毫秒!
-[2019-11-25T22:26:13.583] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
-[2019-11-25T22:26:13.583] [INFO] default - 开始处理模块: title-3
-[2019-11-25T22:26:13.583] [DEBUG] default - 使用缓存返回模板: title-3
-[2019-11-25T22:26:13.583] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:26:13.583] [INFO] default - 开始处理模块: peopleBox
-[2019-11-25T22:26:13.593] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
-[2019-11-25T22:26:13.600] [DEBUG] default - 模块peopleBox处理用时: 17 毫秒!
-[2019-11-25T22:26:13.600] [DEBUG] default - 模块 title 因名称重复被重命名为 title-4
-[2019-11-25T22:26:13.600] [INFO] default - 开始处理模块: title-4
-[2019-11-25T22:26:13.600] [DEBUG] default - 使用缓存返回模板: title-4
-[2019-11-25T22:26:13.601] [DEBUG] default - 模块title处理用时: 1 毫秒!
-[2019-11-25T22:26:13.601] [INFO] default - 开始处理模块: yiantian
-[2019-11-25T22:26:13.611] [DEBUG] default - 缓存模板: yiantian./src/module/yiantian.owo
-[2019-11-25T22:26:13.614] [DEBUG] default - 模块yiantian处理用时: 13 毫秒!
-[2019-11-25T22:26:13.618] [DEBUG] default - 缓存模板: one./src/page/one.owo
-[2019-11-25T22:26:13.621] [DEBUG] default - 页面one处理用时: 234 毫秒!
-[2019-11-25T22:26:13.622] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title-bar.png
-[2019-11-25T22:26:13.622] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/calendar.png
-[2019-11-25T22:26:13.622] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/rolling-news.jpg
-[2019-11-25T22:26:13.622] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/title.png
-[2019-11-25T22:26:13.622] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/list-icon.png
-[2019-11-25T22:26:13.622] [DEBUG] default - css中的资源处理完毕!
-[2019-11-25T22:26:13.622] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-11-25T22:26:13.634] [INFO] default - 处理字体: {}
-[2019-11-25T22:26:13.638] [INFO] default - 使用postcss处理完毕! 用时: 16 毫秒
-[2019-11-25T22:26:13.638] [INFO] default - 正在处理script!
-[2019-11-25T22:26:13.639] [DEBUG] default - 选择将js合并到html中!
-[2019-11-25T22:26:13.697] [INFO] default - 工程中只有一个页面!
-[2019-11-25T22:26:13.698] [INFO] default - js中的资源处理完毕!
-[2019-11-25T22:26:13.698] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-11-25T22:26:13.698] [DEBUG] default - 外部脚本数量: 3
-[2019-11-25T22:26:13.698] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-11-25T22:26:13.698] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-11-25T22:26:13.698] [DEBUG] default - 处理脚本: swiper.4.5.0
-[2019-11-25T22:26:13.698] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:26:13.698] [DEBUG] default - 处理脚本: main
-[2019-11-25T22:26:13.698] [INFO] default - 读取文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:26:13.698] [DEBUG] default - 输出scriptData
-[2019-11-25T22:26:13.698] [DEBUG] default - 准备输出html!
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/bg.jpg
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-1.png
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-2.png
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-4.png
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/icon-3.png
-[2019-11-25T22:26:13.698] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:26:13.699] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:26:13.699] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:26:13.699] [DEBUG] default - 忽略文件: C:/Users/my/Documents/GitHub/Local-two-sessions-H5/src/resource/people.jpg
-[2019-11-25T22:26:13.700] [DEBUG] default - 页面中不包含切换动画!
-[2019-11-25T22:26:13.700] [INFO] default - 编译结束!
-[2019-11-25T22:26:13.701] [INFO] default - 发送页面需要刷新命令!
-[2019-11-25T22:26:13.704] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\css\owo.main.css
-[2019-11-25T22:26:13.704] [INFO] default - 主要逻辑文件写出成功!
-[2019-11-25T22:26:13.705] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\main.js
-[2019-11-25T22:26:13.707] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\main.js
-[2019-11-25T22:26:13.723] [INFO] default - 读取成功: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\src\resource\swiper.4.5.0.min.js
-[2019-11-25T22:26:13.728] [INFO] default - 写入文件: C:\Users\my\Documents\GitHub\Local-two-sessions-H5\dist\static\js\swiper.4.5.0.js
+[2019-11-26T08:45:45.451] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-11-26T08:45:45.453] [INFO] default - 程序运行目录: D:\work\地方两会-H5
+[2019-11-26T08:45:45.453] [INFO] default - 首次启动!
+[2019-11-26T08:45:45.453] [INFO] default - 生成版本号: 9pzdopffkeb
+[2019-11-26T08:45:45.463] [INFO] default - 清理资源文件夹: D:\work\地方两会-H5\dist\static
+[2019-11-26T08:45:45.463] [INFO] default - 文件夹不存在: D:\work\地方两会-H5\dist\static
+[2019-11-26T08:45:45.463] [INFO] default - 创建文件夹: D:\work\地方两会-H5\dist\static
+[2019-11-26T08:45:45.463] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-11-26T08:45:45.463] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-11-26T08:45:45.464] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-11-26T08:45:45.465] [INFO] default - 开始处理模块: one
+[2019-11-26T08:45:45.850] [INFO] default - 开始处理模块: titleBar
+[2019-11-26T08:45:45.863] [DEBUG] default - 缓存模板: titleBar./src/module/titleBar.owo
+[2019-11-26T08:45:45.911] [DEBUG] default - 模块titleBar处理用时: 61 毫秒!
+[2019-11-26T08:45:45.912] [INFO] default - 开始处理模块: ProgressBarSwiper
+[2019-11-26T08:45:45.912] [DEBUG] default - 使用文件缓存:D:\work\地方两会-H5\owo_modules\bb20fdb29e4ed459ca70b4b05f4ccdc7.owo
+[2019-11-26T08:45:45.922] [DEBUG] default - 缓存模板: ProgressBarSwiperhttps://owo.ink/public/cf911b29795ae1e59c864e8df434fd4e.page
+[2019-11-26T08:45:45.930] [DEBUG] default - 模块ProgressBarSwiper处理用时: 19 毫秒!
+[2019-11-26T08:45:45.930] [INFO] default - 开始处理模块: agenda
+[2019-11-26T08:45:45.938] [DEBUG] default - 缓存模板: agenda./src/module/agenda.owo
+[2019-11-26T08:45:45.943] [DEBUG] default - 模块agenda处理用时: 13 毫秒!
+[2019-11-26T08:45:45.943] [INFO] default - 开始处理模块: calendar
+[2019-11-26T08:45:45.953] [DEBUG] default - 缓存模板: calendar./src/module/calendar.owo
+[2019-11-26T08:45:45.965] [DEBUG] default - 模块calendar处理用时: 22 毫秒!
+[2019-11-26T08:45:45.965] [INFO] default - 开始处理模块: rollingNews
+[2019-11-26T08:45:45.977] [DEBUG] default - 缓存模板: rollingNews./src/module/rollingNews.owo
+[2019-11-26T08:45:45.987] [DEBUG] default - 模块rollingNews处理用时: 21 毫秒!
+[2019-11-26T08:45:45.987] [INFO] default - 开始处理模块: title
+[2019-11-26T08:45:45.993] [DEBUG] default - 缓存模板: title./src/module/title.owo
+[2019-11-26T08:45:45.996] [DEBUG] default - 模块title处理用时: 9 毫秒!
+[2019-11-26T08:45:45.996] [INFO] default - 开始处理模块: videoBox
+[2019-11-26T08:45:46.004] [DEBUG] default - 缓存模板: videoBox./src/module/videoBox.owo
+[2019-11-26T08:45:46.011] [DEBUG] default - 模块videoBox处理用时: 15 毫秒!
+[2019-11-26T08:45:46.011] [DEBUG] default - 模块 title 因名称重复被重命名为 title-1
+[2019-11-26T08:45:46.011] [INFO] default - 开始处理模块: title-1
+[2019-11-26T08:45:46.012] [DEBUG] default - 使用缓存返回模板: title-1
+[2019-11-26T08:45:46.013] [DEBUG] default - 模块title处理用时: 2 毫秒!
+[2019-11-26T08:45:46.013] [INFO] default - 开始处理模块: unscramble
+[2019-11-26T08:45:46.016] [DEBUG] default - 缓存模板: unscramble./src/module/unscramble.owo
+[2019-11-26T08:45:46.019] [DEBUG] default - 模块unscramble处理用时: 6 毫秒!
+[2019-11-26T08:45:46.020] [DEBUG] default - 模块 title 因名称重复被重命名为 title-2
+[2019-11-26T08:45:46.020] [INFO] default - 开始处理模块: title-2
+[2019-11-26T08:45:46.020] [DEBUG] default - 使用缓存返回模板: title-2
+[2019-11-26T08:45:46.023] [DEBUG] default - 模块title处理用时: 4 毫秒!
+[2019-11-26T08:45:46.023] [INFO] default - 开始处理模块: focusBox
+[2019-11-26T08:45:46.030] [DEBUG] default - 缓存模板: focusBox./src/module/focusBox.owo
+[2019-11-26T08:45:46.037] [DEBUG] default - 模块focusBox处理用时: 14 毫秒!
+[2019-11-26T08:45:46.037] [DEBUG] default - 模块 title 因名称重复被重命名为 title-3
+[2019-11-26T08:45:46.037] [INFO] default - 开始处理模块: title-3
+[2019-11-26T08:45:46.037] [DEBUG] default - 使用缓存返回模板: title-3
+[2019-11-26T08:45:46.038] [DEBUG] default - 模块title处理用时: 1 毫秒!
+[2019-11-26T08:45:46.038] [INFO] default - 开始处理模块: peopleBox
+[2019-11-26T08:45:46.047] [DEBUG] default - 缓存模板: peopleBox./src/module/peopleBox.owo
+[2019-11-26T08:45:46.057] [DEBUG] default - 模块peopleBox处理用时: 19 毫秒!
+[2019-11-26T08:45:46.057] [DEBUG] default - 模块 title 因名称重复被重命名为 title-4
+[2019-11-26T08:45:46.057] [INFO] default - 开始处理模块: title-4
+[2019-11-26T08:45:46.057] [DEBUG] default - 使用缓存返回模板: title-4
+[2019-11-26T08:45:46.059] [DEBUG] default - 模块title处理用时: 2 毫秒!
+[2019-11-26T08:45:46.059] [INFO] default - 开始处理模块: yiantian
+[2019-11-26T08:45:46.063] [DEBUG] default - 缓存模板: yiantian./src/module/yiantian.owo
+[2019-11-26T08:45:46.066] [DEBUG] default - 模块yiantian处理用时: 7 毫秒!
+[2019-11-26T08:45:46.066] [DEBUG] default - 模块 title 因名称重复被重命名为 title-5
+[2019-11-26T08:45:46.066] [INFO] default - 开始处理模块: title-5
+[2019-11-26T08:45:46.066] [DEBUG] default - 使用缓存返回模板: title-5
+[2019-11-26T08:45:46.067] [DEBUG] default - 模块title处理用时: 1 毫秒!
+[2019-11-26T08:45:46.067] [DEBUG] default - 模块 ProgressBarSwiper 因名称重复被重命名为 ProgressBarSwiper-1
+[2019-11-26T08:45:46.067] [INFO] default - 开始处理模块: ProgressBarSwiper-1
+[2019-11-26T08:45:46.067] [DEBUG] default - 使用缓存返回模板: ProgressBarSwiper-1
+[2019-11-26T08:45:46.068] [DEBUG] default - 模块ProgressBarSwiper处理用时: 1 毫秒!
+[2019-11-26T08:45:46.073] [DEBUG] default - 缓存模板: one./src/page/one.owo
+[2019-11-26T08:45:46.077] [DEBUG] default - 页面one处理用时: 612 毫秒!
+[2019-11-26T08:45:46.078] [INFO] default - 文件夹不存在: D:/work/地方两会-H5/dist/static/resource
+[2019-11-26T08:45:46.078] [INFO] default - 创建文件夹: D:/work/地方两会-H5/dist/static/resource
+[2019-11-26T08:45:46.079] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会-H5/src/resource/title-bar.png',
+  'D:/work/地方两会-H5/src/resource/calendar.png',
+  'D:/work/地方两会-H5/src/resource/rolling-news.jpg',
+  'D:/work/地方两会-H5/src/resource/title.png',
+  'D:/work/地方两会-H5/src/resource/list-icon.png' ]
+[2019-11-26T08:45:46.080] [DEBUG] default - 资源目录:  D:/work/地方两会-H5/dist/static/resource
+[2019-11-26T08:45:46.082] [DEBUG] default - css中的资源处理完毕!
+[2019-11-26T08:45:46.648] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-11-26T08:45:46.698] [INFO] default - 文件夹不存在: D:\work\地方两会-H5\dist\static\css
+[2019-11-26T08:45:46.698] [INFO] default - 创建文件夹: D:\work\地方两会-H5\dist\static\css
+[2019-11-26T08:45:46.699] [INFO] default - 开始处理附属css中的资源
+[2019-11-26T08:45:46.699] [INFO] default - 附属css中的资源处理完毕!
+[2019-11-26T08:45:46.699] [INFO] default - 读取文件: D:\work\地方两会-H5\src\resource\swiper.4.5.0.min.css
+[2019-11-26T08:45:46.699] [INFO] default - 附属css中的资源不需要处理!
+[2019-11-26T08:45:46.700] [INFO] default - 处理字体: {}
+[2019-11-26T08:45:46.706] [INFO] default - 使用postcss处理完毕! 用时: 58 毫秒
+[2019-11-26T08:45:46.707] [INFO] default - 正在处理script!
+[2019-11-26T08:45:47.274] [INFO] default - 工程中只有一个页面!
+[2019-11-26T08:45:47.275] [INFO] default - js中的资源处理完毕!
+[2019-11-26T08:45:47.275] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"swiper.4.5.0","src":"./src/resource/swiper.4.5.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-11-26T08:45:47.275] [DEBUG] default - 外部脚本数量: 3
+[2019-11-26T08:45:47.275] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-11-26T08:45:47.275] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-11-26T08:45:47.275] [DEBUG] default - 处理脚本: swiper.4.5.0
+[2019-11-26T08:45:47.275] [INFO] default - 读取文件: D:\work\地方两会-H5\src\resource\swiper.4.5.0.min.js
+[2019-11-26T08:45:47.275] [DEBUG] default - 处理脚本: main
+[2019-11-26T08:45:47.275] [INFO] default - 读取文件: D:\work\地方两会-H5\src\main.js
+[2019-11-26T08:45:47.275] [DEBUG] default - 输出scriptData
+[2019-11-26T08:45:47.276] [DEBUG] default - 准备输出html!
+[2019-11-26T08:45:47.276] [DEBUG] default - 忽略文件: D:/work/地方两会-H5/src/resource/people.jpg
+[2019-11-26T08:45:47.276] [DEBUG] default - 忽略文件: D:/work/地方两会-H5/src/resource/people.jpg
+[2019-11-26T08:45:47.276] [DEBUG] default - 忽略文件: D:/work/地方两会-H5/src/resource/people.jpg
+[2019-11-26T08:45:47.276] [DEBUG] default - 处理资源:  [ 'D:/work/地方两会-H5/src/resource/bg.jpg',
+  'D:/work/地方两会-H5/src/resource/icon-1.png',
+  'D:/work/地方两会-H5/src/resource/icon-2.png',
+  'D:/work/地方两会-H5/src/resource/icon-4.png',
+  'D:/work/地方两会-H5/src/resource/icon-3.png',
+  'D:/work/地方两会-H5/src/resource/people.jpg' ]
+[2019-11-26T08:45:47.277] [DEBUG] default - 资源目录:  D:/work/地方两会-H5/dist/static/resource
+[2019-11-26T08:45:47.277] [DEBUG] default - 开始美化html
+[2019-11-26T08:45:47.310] [INFO] default - 文件夹不存在: D:\work\地方两会-H5\dist\static\js
+[2019-11-26T08:45:47.310] [INFO] default - 创建文件夹: D:\work\地方两会-H5\dist\static\js
+[2019-11-26T08:45:47.310] [DEBUG] default - 页面中不包含切换动画!
+[2019-11-26T08:45:47.311] [INFO] default - 编译结束!
+[2019-11-26T08:45:47.327] [INFO] default - 写入文件: D:\work\地方两会-H5\dist\static\css\owo.main.9pzdopffkeb.css
+[2019-11-26T08:45:47.327] [INFO] default - 主要逻辑文件写出成功!
+[2019-11-26T08:45:47.327] [INFO] default - 读取成功: D:\work\地方两会-H5\src\main.css
+[2019-11-26T08:45:47.328] [INFO] default - 读取成功: D:\work\地方两会-H5\src\main.js
+[2019-11-26T08:45:47.341] [INFO] default - 读取成功: D:\work\地方两会-H5\src\resource\swiper.4.5.0.min.css
+[2019-11-26T08:45:47.359] [INFO] default - 写入文件: D:\work\地方两会-H5\dist\static\css\main.css
+[2019-11-26T08:45:47.359] [INFO] default - 写入文件: D:\work\地方两会-H5\dist\static\js\main.js
+[2019-11-26T08:45:47.363] [INFO] default - 写入文件: D:\work\地方两会-H5\dist\static\css\swiper4.5.0.css
+[2019-11-26T08:45:47.370] [INFO] default - 读取成功: D:\work\地方两会-H5\src\resource\swiper.4.5.0.min.js
+[2019-11-26T08:45:47.374] [INFO] default - 写入文件: D:\work\地方两会-H5\dist\static\js\swiper.4.5.0.js
