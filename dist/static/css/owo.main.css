@@ -22,6 +22,7 @@ body, html, .owo, .page-box {
   z-index: 99;
 }
 
+
 a {
   color: #333;
 }
@@ -54,41 +55,35 @@ li {
 }
 
 .title-bar {
+  background-image: url('../resource/title-bar.png');
+  background-repeat: no-repeat;
+  background-size: auto 80%;
   width: 100%;
-  position: absolute;
-  top: 61vw;
-  display: flex;
-  z-index: 999;
   background-position: right;
   -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   background-color: #de2e36;
 }
 
-.title-bar.active {
-  position: fixed;
-  top: 0;
-}
-
 .title-bar ul {
   width: 88vw;
-  height: 40px;
+  height: 50px;
   white-space: nowrap;
   overflow: scroll;
   position: relative;
 }
 
-a[name]  {
-  display: block;
-  padding-bottom: 20px;
-}
-
 .title-bar li {
   display: inline-block;
-  line-height: 40px;
+  line-height: 50px;
   color: white;
   margin: 0 10px;
   cursor: pointer;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .title-bar li:hover {
@@ -153,9 +148,8 @@ a[name]  {
 .swiper-box {
   height: 60vw;
   overflow: hidden;
-  width: 100%;
+  width: 90vw;
   margin: 0 auto;
-  position: relative;
 }
 
 .swiper-box img {
@@ -175,24 +169,24 @@ a[name]  {
 }
 
 .swiper-box .swiper-container {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   height: 60vw;
+  margin: 0;
   overflow: hidden;
   position: relative;
 }
 
-.swiper-box .pagination.swiper-pagination-bullets {
+.swiper-box .swiper-container .pagination {
   position: absolute;
   bottom: 0;
-  right: 5%;
+  right: 0;
   height: 5px;
-  width: 90%;
+  width: 100%;
   background-color: black;
   z-index: 9;
 }
 
-.swiper-box .pagination .swiper-pagination-bullet {
+.swiper-box .swiper-container .pagination .swiper-pagination-bullet {
   height: 5px;
   display: block;
   background-color: black;
@@ -204,7 +198,7 @@ a[name]  {
   padding: 0;
 }
 
-.swiper-box .pagination .swiper-pagination-bullet-active {
+.swiper-box .swiper-container .pagination .swiper-pagination-bullet-active {
   background-color: #064cc0;
 }
 
@@ -218,36 +212,17 @@ a[name]  {
 
 .swiper-box .previou {
   position: absolute;
-  width: 5vw;
+  width: auto;
   height: auto;
-  left: 0vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  bottom: 10px;
+  right: 70px;
   cursor: pointer;
-  display: none;
-}
-.swiper-container-3 {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-box .next {
-  position: absolute;
-  width: 5vw;
-  height: auto;
-  right: 0vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-  display: none;
 }
 
 .swiper-box .index {
   position: absolute;
   bottom: 9px;
-  right: 7vw;
+  right: 10px;
   color: white;
   font-size: 18px;
   line-height: 20px;
@@ -411,7 +386,6 @@ a[name]  {
 }
 
 .plate-title-bar h2 {
-  display: flex;
   height: 17vw;
   line-height: 17vw;
 }
@@ -428,7 +402,7 @@ a[name]  {
 .plate-title-bar strong {
   color: #494949;
 }
-.video-box .right .swiper-container-3 {
+.video-box .right {
   display: none;
 }
 
@@ -436,61 +410,11 @@ a[name]  {
   width: 90vw;
   height: 50vw;
   margin: 0 auto;
-  position: relative;
-}
-.video-box video, .video-box embed {
-  width: 100%;
-  height: 100%;
 }
 
 .video-box .left {
   width: 100%;
   height: 100%;
-}
-
-.video-box .down {
-  position: absolute;
-  width: 5vw;
-  height: auto;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-  background-image: url("../resource/left.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 5vw;
-}
-
-.video-box .right {
-  width: 100vw;
-  height: 100%;
-  left: -5vw;
-  position: absolute;
-  z-index: 9;
-}
-
-.video-box .up {
-  position: absolute;
-  width: 5vw;
-  height: auto;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-  background-image: url("../resource/right.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 5vw;
-}
-
-.control-bar {
-  width: 100vw;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
 }
 .unscramble li {
   background-image: url('../resource/list-icon.png');
@@ -511,7 +435,7 @@ a[name]  {
   width: 90vw;
   height: 52vw;
   margin: 0 auto;
-  position: relative;
+  overflow: hidden;
 }
 
 .focus-box .swiper-container-2,
@@ -522,38 +446,12 @@ a[name]  {
   position: relative;
 }
 
-.focus-box .swiper-container-2 {
-  width: 90vw;
-  overflow: hidden;
-}
-
-.focus-left-button {
-  position: absolute;
-  left: -5vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 5vw;
-  height: auto;
-  z-index: 9;
-}
-
-.focus-right-button {
-  position: absolute;
-  right: -5vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 5vw;
-  height: auto;
-  z-index: 9;
-}
 .focus-box .swiper-slide-item {
   position: relative;
 }
 
-.focus-box .swiper-container-2 img,
-.focus-box .swiper-container-2 a {
+.focus-box img,
+.focus-box a {
   width: 100%;
   height: 100%;
   display: block;
@@ -569,69 +467,11 @@ a[name]  {
   width: 96%;
   color: #212121;
 }
-.swiper-container-4 {
+.people-box {
   width: 90vw;
   height: 49vw;
   overflow: hidden;
   margin: 0 auto;
-}
-
-.people-box {
-  height: 49vw;
-  margin: 0 auto;
-  position: relative;
-}
-
-.people-box .people-left-button {
-  position: absolute;
-  left: 0vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 5vw;
-  height: auto;
-  z-index: 9;
-  cursor: pointer;
-}
-
-.people-box .people-right-button {
-  position: absolute;
-  right: 0vw;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 5vw;
-  height: auto;
-  z-index: 9;
-}
-
-.people-box .left {
-  height: 100%;
-  width: 40vw;
-  float: left;
-}
-
-.people-box .right {
-  float: left;
-  height: 100%;
-  width: 46vw;
-  padding-left: 3vw;
-}
-
-.people-box .right h2 {
-  font-size: 26px;
-  line-height: 30px;
-}
-
-.people-box .right h3 {
-  font-size: 12px;
-  line-height: 16px;
-  margin: 5px 0;
-}
-
-.people-box .right p {
-  height: 30vw;
-  overflow: auto;
 }
 
 .people-box img,
@@ -644,7 +484,6 @@ a[name]  {
 .main-image {
   width: 100%;
   display: block;
-  margin-bottom: 10px;
 }
 
 .main-title {
@@ -688,10 +527,7 @@ a[name]  {
 .button-bar {
   height: 40px;
   line-height: 40px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 999;
+  margin-top: 40px;
 }
 
 .button-bar .fl {
@@ -709,54 +545,3 @@ a[name]  {
   color: white;
 }
 
-.button-bar .fl a {
-  color: white;
-  font-size: 18px;
-}
-
-.swiper-wrapper {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.li-box {
-  width: 100%;
-  height: 100%;
-}
-
-.three-image-box {
-  height: 20vw;
-  overflow: hidden;
-  margin: 20px 4vw;
-  display: flex;
-}
-
-.three-image-box li {
-  height: 100%;
-  width: 30vw;
-  margin: 0 1vw;
-}
-
-.three-image-box a, .three-image-box img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.title-bar .left-button {
-  background-image: url("../resource/nav-left.png");
-}
-
-.title-bar .right-button {
-  background-image: url("../resource/nav-right.png");
-}
-
-.title-bar .button {
-  width: 6vw;
-  height: 40px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px;
-}
